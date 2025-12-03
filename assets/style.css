@@ -1,0 +1,69 @@
+/* assets/style.css */
+
+/* Page container tweaks */
+body {
+  background: linear-gradient(180deg, #f7f9fc 0%, #ffffff 100%);
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: #222;
+}
+
+/* Header */
+h1 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #1f3b6b;
+  margin-bottom: 6px;
+}
+
+/* Paragraph subtitle */
+.lead {
+  color: #445566;
+}
+
+/* Controls card */
+.card {
+  border-radius: 12px;
+  padding: 12px;
+}
+
+/* Summary card styling */
+.summary-card {
+  border-left: 4px solid #ff7b5c;
+}
+
+/* Radio items styling */
+div.rc-Fieldset, .control-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.dash-radio .Select-control {
+  /* fallback if any */
+}
+
+/* Make radio labels slightly bolder and spaced */
+#region-radio label {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+/* Button tweaks */
+.btn {
+  border-radius: 8px;
+}
+
+/* Make chart container stand out */
+#sales-line {
+  box-shadow: 0 6px 18px rgba(30, 40, 60, 0.06);
+  border-radius: 8px;
+  padding: 8px;
+  background: #ffffff;
+}
+
+/* Small screens -> stack nicely */
+@media (max-width: 768px) {
+  .summary-card div {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
