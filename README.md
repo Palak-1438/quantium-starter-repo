@@ -60,4 +60,35 @@ This project demonstrates my ability to plan, build, test, and automate a real-w
 ---
 
 ## 📦 Project Structure
+project/
+│── data/
+│── app/
+│ ├── app.py
+│ ├── callbacks.py
+│ ├── layout.py
+│── tests/
+│── README.md
+│── requirements.txt
+
+
+---
+
+## ▶️ How to Run the App
+```bash
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Dash app
+python app/app.py
+
+🧪 How to Run Tests
+pytest
+
+🤝 Contributions
+
+Feel free to open issues or submit pull requests for enhancements, UI improvements, or new features.
 
